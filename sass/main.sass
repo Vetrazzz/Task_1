@@ -1,0 +1,126 @@
+@import "bourbon"
+$green-color: #2ecc71
+$grey-color: #e3e3e3
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+
+
+//Custom Styles Here
+#advantages.section
+	padding-top:em(60px)
+	padding-bottom:em(60px)
+	text-align: center
+
+#video.section
+	background-color: $grey-color
+	padding-top:em(60px)
+	padding-bottom:em(60px)
+	iframe
+		border-radius:10px
+		width: em(500px)
+	.textv
+		padding-left:auto
+
+#carousel.section
+	background-color: #fff
+	padding-top:em(60px)
+	padding-bottom:em(60px)
+
+.my_adv
+	font-size:em(100px)
+	color:$green-color
+.pic
+	opacity: 1.0
+.pic:hover
+ 	opacity: 0.5
+.slider-for h4
+ font-weight:bold
+.center-block
+	width:em(1200px)
+#SayHi.section
+	padding-bottom:em(60px)
+	text-align:center
+	h2
+		color:#000000
+	.my
+		display:inline
+		font-size:em(34px)
+		color:#d4d4d4
+	a:hover, a:active
+		text-decoration: none
+		color:#2ecc71
+	
+.footer
+	background-color: $grey-color
+	ul
+		padding-left:0px
+	li
+			display:inline
+			padding-left:em(35px)
+			text-color:black
+	.menu
+		text-align:center
+		padding-top:em(60px)
+		padding-bottom:em(60px)
+		background-color: $grey-color
+		a
+			text-transform:underline
+			color:#848484
+.btn
+	background-color:$green-color
+	color:#fff
+	font-size:em(22px)
+	border-top-right-radius:13px
+	border-bottom-right-radius:13px
+	width:em(140px)
+
+
+
+
+.form-control
+	font-size:18px
+	height:2.5em
+	border-top-left-radius:13px
+	border-bottom-left-radius:13px
+
+
+.allform
+	padding-bottom:30px
+	margin-bottom:0
+	font-family:"HelveticaNeueCyrMedium",$helvetica
+p.allform
+	color:#848484
+
+.slider-nav
+	mask: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%)
+	mask: -moz-linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%)
+	mask: -o-linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%)
+	mask: -ms-linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%)
+	
+
+
+
+
+//ALWAYS END
+@import "_media.sass"

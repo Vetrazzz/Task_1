@@ -1,0 +1,24 @@
+.slider-for{
+	width:800px;
+	height:100px;
+	text-align: center;
+	margin:20px auto;
+}
+
+.slider-nav{
+	width:825px;
+	height:50px;
+	margin:20px auto;
+	text-align: center;
+	
+}
+.slider-nav div{
+width: 100%;
+height: 100%;
+margin-right: 50px;
+
+}
+
+
+
+
